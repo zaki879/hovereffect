@@ -1,8 +1,8 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+.sectionhoveranimation {
   display: block;
 }
 
-.section.gifts {
+.sectionhoveranimation.gifts {
   width: 100%;
  
   min-height: 140vh;

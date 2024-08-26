@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!-- Last Published: Fri Aug 09 2024 21:41:16 GMT+0000 (Coordinated Universal Time) -->
-<html  data-wf-page="66bb83866488a63f4fd4b0ee"  lang="en">
+<html  data-wf-page="668e54644ae0f7b199067da9"  lang="en">
     <head>
         <meta charset="utf-8"/>
         <title>Givingli - Level Up Your Gifting</title>
-        <link href="/style1.css" rel="stylesheet" type="text/css"/>    
+        <link href="https://zaki879.github.io/hovereffect/style1.css" rel="stylesheet" type="text/css"/>    
 
      
         <style>
@@ -135,29 +135,6 @@
                     }
 
                     // Grab all elements that have a "data-target" attribute
-                    const scrollButtons = document.querySelectorAll('[data-target]');
-
-                    // For each element, listen to a "click" event
-                    scrollButtons.forEach(button => {
-                        button.addEventListener('click', e => {
-                            e.preventDefault();
-
-                            // get the DOM element by the ID (data-target value)
-                            var target = button.dataset.target
-                            , $el = document.getElementById(target.replace('#', ''));
-
-                            // Use lenis.scrollTo() to scroll the page to the right element
-                            lenis.scrollTo($el, {
-                                offset: 0,
-                                immediate: false,
-                                duration: 1500,  // Adjust the duration as needed
-                                easing: (x) => 0 * (1 - Math.cos(Math.PI * x)), // Ease In Out Sine
-                            });
-                            
-                        }
-                        );
-                    }
-                    );
 
                     requestAnimationFrame(raf)
                 }
